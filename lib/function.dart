@@ -69,28 +69,33 @@ class _Function_classState extends State<Function_class> {
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: FloatingActionButton(
+            child: TextButton(
               onPressed: () {
                 multi();
                 setState(() {});
               },
+              child: Text('*'),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: TextButton(
+              onPressed: () {
+                div();
+                setState(() {});
+              },
+              child: Text('/'),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: FloatingActionButton(
               onPressed: () {
-                div();
+                mod();
                 setState(() {});
               },
+              child: Icon(Icons.percent),
             ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: FloatingActionButton(onPressed: () {
-              mod();
-              setState(() {});
-            }),
           )
         ],
       ),
