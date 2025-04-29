@@ -50,30 +50,40 @@ class _Function_classState extends State<Function_class> {
         children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: FloatingActionButton(onPressed: () {
-              add();
-            }),
+            child: FloatingActionButton(
+              onPressed: () {
+                add();
+              },
+              child: Icon(Icons.add),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: FloatingActionButton(onPressed: () {
-              sub();
-              setState(() {});
-            }),
+            child: FloatingActionButton(
+              onPressed: () {
+                sub();
+                setState(() {});
+              },
+              child: Icon(Icons.remove),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: FloatingActionButton(onPressed: () {
-              multi();
-              setState(() {});
-            }),
+            child: FloatingActionButton(
+              onPressed: () {
+                multi();
+                setState(() {});
+              },
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: FloatingActionButton(onPressed: () {
-              div();
-              setState(() {});
-            }),
+            child: FloatingActionButton(
+              onPressed: () {
+                div();
+                setState(() {});
+              },
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
