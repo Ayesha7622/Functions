@@ -57,6 +57,7 @@ class _Function_classState extends State<Function_class> {
               child: Icon(Icons.add),
             ),
           ),
+          Text('The sum of 23 and 45 = $add'),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: FloatingActionButton(
