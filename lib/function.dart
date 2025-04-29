@@ -14,6 +14,30 @@ class _Function_classState extends State<Function_class> {
     int add = a + b;
   }
 
+  void sub() {
+    int a = 65;
+    int b = 12;
+    int sub = a - b;
+  }
+
+  void multi() {
+    int a = 34;
+    int b = 56;
+    int multi = a * b;
+  }
+
+  void div() {
+    double a = 89;
+    double b = 91;
+    double div = a / b;
+  }
+
+  void mod() {
+    double a = 43;
+    double b = 61;
+    double mpd = a / b;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +47,42 @@ class _Function_classState extends State<Function_class> {
         title: Text('Function Class'),
       ),
       body: Column(
-        children: [FloatingActionButton(onPressed: () {})],
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: FloatingActionButton(onPressed: () {
+              add();
+            }),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: FloatingActionButton(onPressed: () {
+              sub();
+              setState(() {});
+            }),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: FloatingActionButton(onPressed: () {
+              multi();
+              setState(() {});
+            }),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: FloatingActionButton(onPressed: () {
+              div();
+              setState(() {});
+            }),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: FloatingActionButton(onPressed: () {
+              mod();
+              setState(() {});
+            }),
+          )
+        ],
       ),
     );
   }
