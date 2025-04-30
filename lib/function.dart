@@ -103,6 +103,7 @@ class _Function_classState extends State<Function_class> {
             child: FloatingActionButton(
               onPressed: () {
                 mod();
+                Text("$mod");
                 setState(() {});
               },
               child: Icon(Icons.percent),
