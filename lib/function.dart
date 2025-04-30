@@ -103,12 +103,13 @@ class _Function_classState extends State<Function_class> {
             child: FloatingActionButton(
               onPressed: () {
                 mod();
-                Text("$mod");
+
                 setState(() {});
               },
               child: Icon(Icons.percent),
             ),
           ),
+          Text("$mod"),
           Text("The Modulas of 43 and 61 = ")
         ],
       ),
