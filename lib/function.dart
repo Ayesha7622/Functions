@@ -53,6 +53,7 @@ class _Function_classState extends State<Function_class> {
             child: FloatingActionButton(
               onPressed: () {
                 add();
+                Text("$add");
               },
               child: Icon(Icons.add),
             ),
