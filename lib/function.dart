@@ -64,6 +64,7 @@ class _Function_classState extends State<Function_class> {
             child: FloatingActionButton(
               onPressed: () {
                 sub();
+                Text("$sub");
                 setState(() {});
               },
               child: Icon(Icons.remove),
@@ -75,6 +76,7 @@ class _Function_classState extends State<Function_class> {
             child: FloatingActionButton(
               onPressed: () {
                 multi();
+                Text("$multi");
                 setState(() {});
               },
               child: Text('*', style: TextStyle(fontSize: 30)),
@@ -86,6 +88,7 @@ class _Function_classState extends State<Function_class> {
             child: FloatingActionButton(
               onPressed: () {
                 div();
+                Text("$div");
                 setState(() {});
               },
               child: Text(
