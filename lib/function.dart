@@ -68,6 +68,7 @@ class _Function_classState extends State<Function_class> {
               child: Icon(Icons.remove),
             ),
           ),
+          Text('Subtraction between 65 and 12 = $sub'),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: TextButton(
