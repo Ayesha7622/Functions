@@ -17,30 +17,35 @@ class _Function_classState extends State<Function_class> {
     int a = 23;
     int b = 45;
     int add = a + b;
+    setState(() {});
   }
 
   void subb() {
     int a = 65;
     int b = 12;
     int sub = a - b;
+    setState(() {});
   }
 
   void multii() {
     int a = 34;
     int b = 56;
     int multi = a * b;
+    setState(() {});
   }
 
   void divv() {
     double a = 89;
     double b = 91;
     double div = a / b;
+    setState(() {});
   }
 
   void modd() {
     double a = 43;
     double b = 61;
     double mod = a / b;
+    setState(() {});
   }
 
   @override
@@ -61,7 +66,7 @@ class _Function_classState extends State<Function_class> {
             child: FloatingActionButton(
               onPressed: () {
                 addd();
-                Text("$add");
+                //Text("$add");
               },
               child: Icon(Icons.add),
             ),
@@ -78,8 +83,8 @@ class _Function_classState extends State<Function_class> {
             child: FloatingActionButton(
               onPressed: () {
                 subb();
-                Text("$sub");
-                setState(() {});
+                //Text("$sub");
+                //setState(() {});
               },
               child: Icon(Icons.remove),
             ),
@@ -96,8 +101,8 @@ class _Function_classState extends State<Function_class> {
             child: FloatingActionButton(
               onPressed: () {
                 multii();
-                Text("$multi");
-                setState(() {});
+                //Text("$multi");
+                //setState(() {});
               },
               child: Text('*', style: TextStyle(fontSize: 30)),
             ),
@@ -114,8 +119,8 @@ class _Function_classState extends State<Function_class> {
             child: FloatingActionButton(
               onPressed: () {
                 divv();
-                Text("$div");
-                setState(() {});
+                //Text("$div");
+                //setState(() {});
               },
               child: Text(
                 '/',
@@ -136,7 +141,7 @@ class _Function_classState extends State<Function_class> {
               onPressed: () {
                 modd();
 
-                setState(() {});
+                //setState(() {});
               },
               child: Icon(Icons.percent),
             ),
