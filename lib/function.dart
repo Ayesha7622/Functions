@@ -69,7 +69,7 @@ class _Function_classState extends State<Function_class> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
-              'The sum of 23 and 45 = $addd',
+              'The sum of 23 and 45 = $add',
               style: TextStyle(color: Colors.white),
             ),
           ),
@@ -87,7 +87,7 @@ class _Function_classState extends State<Function_class> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
-              'Subtraction between 65 and 12 = $subb',
+              'Subtraction between 65 and 12 = $sub',
               style: TextStyle(color: Colors.white),
             ),
           ),
@@ -105,7 +105,7 @@ class _Function_classState extends State<Function_class> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
-              "Product of 34 and 56 = $multii",
+              "Product of 34 and 56 = $multi",
               style: TextStyle(color: Colors.white),
             ),
           ),
@@ -126,7 +126,7 @@ class _Function_classState extends State<Function_class> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
-              "89 divided by 91 = $divv",
+              "89 divided by 91 = $div",
               style: TextStyle(color: Colors.white),
             ),
           ),
