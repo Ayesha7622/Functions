@@ -66,9 +66,12 @@ class _Function_classState extends State<Function_class> {
               child: Icon(Icons.add),
             ),
           ),
-          Text(
-            'The sum of 23 and 45 = $add',
-            style: TextStyle(color: Colors.white),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+              'The sum of 23 and 45 = $addd',
+              style: TextStyle(color: Colors.white),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -81,9 +84,12 @@ class _Function_classState extends State<Function_class> {
               child: Icon(Icons.remove),
             ),
           ),
-          Text(
-            'Subtraction between 65 and 12 = $sub',
-            style: TextStyle(color: Colors.white),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+              'Subtraction between 65 and 12 = $subb',
+              style: TextStyle(color: Colors.white),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -96,9 +102,12 @@ class _Function_classState extends State<Function_class> {
               child: Text('*', style: TextStyle(fontSize: 30)),
             ),
           ),
-          Text(
-            "Product of 34 and 56 = $multi",
-            style: TextStyle(color: Colors.white),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+              "Product of 34 and 56 = $multii",
+              style: TextStyle(color: Colors.white),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -114,9 +123,12 @@ class _Function_classState extends State<Function_class> {
               ),
             ),
           ),
-          Text(
-            "89 divided by 91 = $div",
-            style: TextStyle(color: Colors.white),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+              "89 divided by 91 = $divv",
+              style: TextStyle(color: Colors.white),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -130,9 +142,12 @@ class _Function_classState extends State<Function_class> {
             ),
           ),
           //Text("$mod"),
-          Text(
-            "The Modulas of 43 and 61 = $mod",
-            style: TextStyle(color: Colors.white),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+              "The Modulas of 43 and 61 = $mod",
+              style: TextStyle(color: Colors.white),
+            ),
           )
         ],
       ),
