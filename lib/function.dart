@@ -35,7 +35,7 @@ class _Function_classState extends State<Function_class> {
   void mod() {
     double a = 43;
     double b = 61;
-    double mpd = a / b;
+    double mod = a / b;
   }
 
   @override
@@ -57,7 +57,7 @@ class _Function_classState extends State<Function_class> {
               child: Icon(Icons.add),
             ),
           ),
-          Text('The sum of 23 and 45 = $add'),
+          Text('The sum of 23 and 45 = '),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: FloatingActionButton(
@@ -68,27 +68,32 @@ class _Function_classState extends State<Function_class> {
               child: Icon(Icons.remove),
             ),
           ),
-          Text('Subtraction between 65 and 12 = $sub'),
+          Text('Subtraction between 65 and 12 = '),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: TextButton(
+            child: FloatingActionButton(
               onPressed: () {
                 multi();
                 setState(() {});
               },
-              child: Text('*'),
+              child: Text('*', style: TextStyle(fontSize: 30)),
             ),
           ),
+          Text("Product of 34 and 56 ="),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: TextButton(
+            child: FloatingActionButton(
               onPressed: () {
                 div();
                 setState(() {});
               },
-              child: Text('/'),
+              child: Text(
+                '/',
+                style: TextStyle(fontSize: 30),
+              ),
             ),
           ),
+          Text("89 divided by 91 = "),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: FloatingActionButton(
@@ -98,7 +103,8 @@ class _Function_classState extends State<Function_class> {
               },
               child: Icon(Icons.percent),
             ),
-          )
+          ),
+          Text("The Modulas of 43 and 61 = ")
         ],
       ),
     );
