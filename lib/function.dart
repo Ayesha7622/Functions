@@ -49,7 +49,10 @@ class _Function_classState extends State<Function_class> {
       backgroundColor: const Color.fromARGB(255, 62, 40, 61),
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 95, 64, 93),
-        title: Text('Function Class'),
+        title: Text(
+          'Function Class',
+          style: TextStyle(color: Colors.white),
+        ),
       ),
       body: Column(
         children: [
