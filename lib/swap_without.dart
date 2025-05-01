@@ -40,7 +40,9 @@ class _Swap_classState extends State<Swap_class> {
           Text("The value of c=$c"),
           Text("The value of d=$d"),
           FloatingActionButton(
-            onPressed: () {},
+            onPressed: () {
+              swap();
+            },
             child: Text("Swapping"),
           ),
           Text("After Swaping;"),
