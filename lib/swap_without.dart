@@ -37,23 +37,38 @@ class _Swap_classState extends State<Swap_class> {
         children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text('Before Swapping;'),
+            child: Text(
+              'Before Swapping;',
+              style: TextStyle(fontSize: 30),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text("The value of a = 45"),
+            child: Text(
+              "The value of a = 45",
+              style: TextStyle(fontSize: 20),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text("The value of b = 61"),
+            child: Text(
+              "The value of b = 61",
+              style: TextStyle(fontSize: 20),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text("The value of c = 72"),
+            child: Text(
+              "The value of c = 72",
+              style: TextStyle(fontSize: 20),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text("The value of d = 93"),
+            child: Text(
+              "The value of d = 93",
+              style: TextStyle(fontSize: 20),
+            ),
           ),
           FloatingActionButton(
             onPressed: () {
@@ -63,23 +78,38 @@ class _Swap_classState extends State<Swap_class> {
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text("After Swaping;"),
+            child: Text(
+              "After Swaping;",
+              style: TextStyle(fontSize: 30),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text("The value of a=$a"),
+            child: Text(
+              "The value of a=$a",
+              style: TextStyle(fontSize: 20),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text("The value of b=$b"),
+            child: Text(
+              "The value of b=$b",
+              style: TextStyle(fontSize: 20),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text("The value of c=$c"),
+            child: Text(
+              "The value of c=$c",
+              style: TextStyle(fontSize: 20),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text("The value of d=$d"),
+            child: Text(
+              "The value of d=$d",
+              style: TextStyle(fontSize: 20),
+            ),
           ),
         ],
       ),
