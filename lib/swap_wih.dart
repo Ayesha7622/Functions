@@ -32,7 +32,8 @@ class _Swap_With_classState extends State<Swap_With_class> {
       backgroundColor: Colors.blue.shade50,
       appBar: AppBar(
         backgroundColor: Colors.blue.shade100,
-        title: Text('Swapping Without Third Variable'),
+        title: Text('Swapping Without Third Variable',
+            style: TextStyle(fontSize: 27, fontWeight: FontWeight.w600)),
       ),
       body: Column(
         children: [
