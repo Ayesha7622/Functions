@@ -37,20 +37,22 @@ class _Swap_With_classState extends State<Swap_With_class> {
       ),
       body: Column(
         children: [
-          Text('Before Swapping;'),
-          Text("The value of a = 62"),
-          Text("The value of b = 32"),
-          Text("The value of c = 85"),
+          Text('Before Swapping;',
+              style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500)),
+          Text("The value of a = 62", style: TextStyle(fontSize: 20)),
+          Text("The value of b = 32", style: TextStyle(fontSize: 20)),
+          Text("The value of c = 85", style: TextStyle(fontSize: 20)),
           FloatingActionButton(
             onPressed: () {
               swap();
             },
             child: Text("Swapping"),
           ),
-          Text("After Swaping;"),
-          Text("The value of a=$a"),
-          Text("The value of b=$b"),
-          Text("The value of c=$c"),
+          Text("After Swaping;",
+              style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500)),
+          Text("The value of a=$a", style: TextStyle(fontSize: 20)),
+          Text("The value of b=$b", style: TextStyle(fontSize: 20)),
+          Text("The value of c=$c", style: TextStyle(fontSize: 20)),
         ],
       ),
     );
