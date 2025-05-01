@@ -16,35 +16,35 @@ class _Function_classState extends State<Function_class> {
   void addd() {
     int a = 23;
     int b = 45;
-    int add = a + b;
+    add = a + b;
     setState(() {});
   }
 
   void subb() {
     int a = 65;
     int b = 12;
-    int sub = a - b;
+    sub = a - b;
     setState(() {});
   }
 
   void multii() {
     int a = 34;
     int b = 56;
-    int multi = a * b;
+    multi = a * b;
     setState(() {});
   }
 
   void divv() {
     double a = 89;
     double b = 91;
-    double div = a / b;
+    div = a / b;
     setState(() {});
   }
 
   void modd() {
     double a = 43;
     double b = 61;
-    double mod = a / b;
+    mod = a / b;
     setState(() {});
   }
 
