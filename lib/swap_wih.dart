@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Swap_Without_class extends StatefulWidget {
-  const Swap_Without_class({super.key});
+class Swap_With_class extends StatefulWidget {
+  const Swap_With_class({super.key});
 
   @override
-  State<Swap_Without_class> createState() => _Swap_Without_classState();
+  State<Swap_With_class> createState() => _Swap_With_classState();
 }
 
-class _Swap_Without_classState extends State<Swap_Without_class> {
+class _Swap_With_classState extends State<Swap_With_class> {
   int a = 0;
   int b = 0;
   int c = 0;
@@ -49,7 +49,6 @@ class _Swap_Without_classState extends State<Swap_Without_class> {
           Text("The value of a=$a"),
           Text("The value of b=$b"),
           Text("The value of c=$c"),
-          Text("The value of d=$d"),
         ],
       ),
     );
