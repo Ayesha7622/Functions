@@ -29,8 +29,9 @@ class _Swap_With_classState extends State<Swap_With_class> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.pink.shade50,
+      backgroundColor: Colors.blue.shade50,
       appBar: AppBar(
+        backgroundColor: Colors.blue.shade100,
         title: Text('Swapping Without Third Variable'),
       ),
       body: Column(

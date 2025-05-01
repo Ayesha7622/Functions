@@ -31,7 +31,11 @@ class _Swap_classState extends State<Swap_class> {
     return Scaffold(
       backgroundColor: Colors.pink.shade50,
       appBar: AppBar(
-        title: Text('Swapping Without Third Variable'),
+        backgroundColor: Colors.pink.shade100,
+        title: Text(
+          'Swapping Without Third Variable',
+          style: TextStyle(fontSize: 27, fontWeight: FontWeight.w600),
+        ),
       ),
       body: Column(
         children: [
@@ -39,7 +43,7 @@ class _Swap_classState extends State<Swap_class> {
             padding: const EdgeInsets.all(8.0),
             child: Text(
               'Before Swapping;',
-              style: TextStyle(fontSize: 30),
+              style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
             ),
           ),
           Padding(
@@ -74,13 +78,15 @@ class _Swap_classState extends State<Swap_class> {
             onPressed: () {
               swap();
             },
-            child: Text("Swapping"),
+            child: Text(
+              "Swapping",
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "After Swaping;",
-              style: TextStyle(fontSize: 30),
+              style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
             ),
           ),
           Padding(
