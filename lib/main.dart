@@ -35,9 +35,10 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        //home: Function_class(),
+        home: Function_class()
         //home: Swap_class(),
-        home: Swap_With_class());
+        //home: Swap_With_class()
+        );
   }
 }
 

@@ -32,27 +32,63 @@ class _Swap_With_classState extends State<Swap_With_class> {
       backgroundColor: Colors.blue.shade50,
       appBar: AppBar(
         backgroundColor: Colors.blue.shade100,
-        title: Text('Swapping Without Third Variable',
+        title: Text('Swapping With Third Variable',
             style: TextStyle(fontSize: 27, fontWeight: FontWeight.w600)),
       ),
       body: Column(
         children: [
-          Text('Before Swapping;',
-              style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500)),
-          Text("The value of a = 62", style: TextStyle(fontSize: 20)),
-          Text("The value of b = 32", style: TextStyle(fontSize: 20)),
-          Text("The value of c = 85", style: TextStyle(fontSize: 20)),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(' Before Swapping ;  ',
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 25,
+                    fontWeight: FontWeight.w500,
+                    backgroundColor: const Color.fromARGB(255, 55, 84, 108))),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("The value of a = 62", style: TextStyle(fontSize: 20)),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("The value of b = 32", style: TextStyle(fontSize: 20)),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("The value of c = 85", style: TextStyle(fontSize: 20)),
+          ),
           FloatingActionButton(
+            backgroundColor: const Color.fromARGB(255, 1, 62, 108),
             onPressed: () {
               swap();
             },
-            child: Text("Swapping"),
+            child: Text(
+              "Swapping",
+              style: TextStyle(color: Colors.white),
+            ),
           ),
-          Text("After Swaping;",
-              style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500)),
-          Text("The value of a=$a", style: TextStyle(fontSize: 20)),
-          Text("The value of b=$b", style: TextStyle(fontSize: 20)),
-          Text("The value of c=$c", style: TextStyle(fontSize: 20)),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(" After Swapping ;  ",
+                style: TextStyle(
+                    fontSize: 25,
+                    color: Colors.white,
+                    fontWeight: FontWeight.w500,
+                    backgroundColor: const Color.fromARGB(255, 55, 84, 108))),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("The value of a=$a", style: TextStyle(fontSize: 20)),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("The value of b=$b", style: TextStyle(fontSize: 20)),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("The value of c=$c", style: TextStyle(fontSize: 20)),
+          ),
         ],
       ),
     );

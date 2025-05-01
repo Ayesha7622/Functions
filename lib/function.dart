@@ -51,19 +51,34 @@ class _Function_classState extends State<Function_class> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 62, 40, 61),
+      backgroundColor: Colors.teal.shade900,
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 95, 64, 93),
+        backgroundColor: Colors.teal.shade700,
         title: Text(
           'Function Class',
-          style: TextStyle(color: Colors.white),
+          style: TextStyle(
+              fontSize: 30, fontWeight: FontWeight.w600, color: Colors.white),
         ),
       ),
       body: Column(
         children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
+            child: Text(
+              "Arithmetic Operators Through Functions:",
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 30,
+                  fontWeight: FontWeight.w500),
+            ),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
             child: FloatingActionButton(
+              backgroundColor: Colors.teal.shade50,
               onPressed: () {
                 addd();
                 //Text("$add");
@@ -75,12 +90,13 @@ class _Function_classState extends State<Function_class> {
             padding: const EdgeInsets.all(8.0),
             child: Text(
               'The sum of 23 and 45 = $add',
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Colors.white, fontSize: 20),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: FloatingActionButton(
+              backgroundColor: Colors.teal.shade100,
               onPressed: () {
                 subb();
                 //Text("$sub");
@@ -93,12 +109,13 @@ class _Function_classState extends State<Function_class> {
             padding: const EdgeInsets.all(8.0),
             child: Text(
               'Subtraction between 65 and 12 = $sub',
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Colors.white, fontSize: 20),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: FloatingActionButton(
+              backgroundColor: Colors.teal.shade200,
               onPressed: () {
                 multii();
                 //Text("$multi");
@@ -111,12 +128,13 @@ class _Function_classState extends State<Function_class> {
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "Product of 34 and 56 = $multi",
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Colors.white, fontSize: 20),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: FloatingActionButton(
+              backgroundColor: Colors.teal.shade300,
               onPressed: () {
                 divv();
                 //Text("$div");
@@ -132,12 +150,13 @@ class _Function_classState extends State<Function_class> {
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "89 divided by 91 = $div",
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Colors.white, fontSize: 20),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: FloatingActionButton(
+              backgroundColor: Colors.teal.shade400,
               onPressed: () {
                 modd();
 
@@ -151,7 +170,7 @@ class _Function_classState extends State<Function_class> {
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "The Modulas of 43 and 61 = $mod",
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Colors.white, fontSize: 20),
             ),
           )
         ],
