@@ -29,7 +29,7 @@ class _Swap_classState extends State<Swap_class> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.pink.shade50,
+      backgroundColor: const Color.fromARGB(255, 102, 43, 63),
       appBar: AppBar(
         backgroundColor: Colors.pink.shade100,
         title: Text(
@@ -43,35 +43,38 @@ class _Swap_classState extends State<Swap_class> {
             padding: const EdgeInsets.all(8.0),
             child: Text(
               'Before Swapping;',
-              style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+              style: TextStyle(
+                  fontSize: 25,
+                  fontWeight: FontWeight.w500,
+                  color: Colors.white),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "The value of a = 45",
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 20, color: Colors.white),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "The value of b = 61",
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 20, color: Colors.white),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "The value of c = 72",
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 20, color: Colors.white),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "The value of d = 93",
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 20, color: Colors.white),
             ),
           ),
           FloatingActionButton(
@@ -86,35 +89,38 @@ class _Swap_classState extends State<Swap_class> {
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "After Swaping;",
-              style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+              style: TextStyle(
+                  fontSize: 25,
+                  fontWeight: FontWeight.w500,
+                  color: Colors.white),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "The value of a=$a",
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 20, color: Colors.white),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "The value of b=$b",
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 20, color: Colors.white),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "The value of c=$c",
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 20, color: Colors.white),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "The value of d=$d",
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 20, color: Colors.white),
             ),
           ),
         ],
