@@ -54,6 +54,7 @@ class _Function_classState extends State<Function_class> {
       backgroundColor: Colors.teal.shade900,
       appBar: AppBar(
         backgroundColor: Colors.teal.shade700,
+        leading: Icon(Icons.forward),
         title: Text(
           'Function Class',
           style: TextStyle(
