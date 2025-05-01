@@ -23,6 +23,7 @@ class _Swap_classState extends State<Swap_class> {
     c = a - b - c - d;
     d = a - b - c - d;
     a = a - b - c - d;
+    setState(() {});
   }
 
   @override
