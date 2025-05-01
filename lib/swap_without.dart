@@ -36,10 +36,10 @@ class _Swap_classState extends State<Swap_class> {
       body: Column(
         children: [
           Text('Before Swapping;'),
-          Text("The value of a=45"),
-          Text("The value of b=61"),
-          Text("The value of c=72"),
-          Text("The value of d=93"),
+          Text("The value of a = 45"),
+          Text("The value of b = 61"),
+          Text("The value of c = 72"),
+          Text("The value of d = 93"),
           FloatingActionButton(
             onPressed: () {
               swap();
