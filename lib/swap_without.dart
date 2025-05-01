@@ -35,22 +35,52 @@ class _Swap_classState extends State<Swap_class> {
       ),
       body: Column(
         children: [
-          Text('Before Swapping;'),
-          Text("The value of a = 45"),
-          Text("The value of b = 61"),
-          Text("The value of c = 72"),
-          Text("The value of d = 93"),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text('Before Swapping;'),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("The value of a = 45"),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("The value of b = 61"),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("The value of c = 72"),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("The value of d = 93"),
+          ),
           FloatingActionButton(
             onPressed: () {
               swap();
             },
             child: Text("Swapping"),
           ),
-          Text("After Swaping;"),
-          Text("The value of a=$a"),
-          Text("The value of b=$b"),
-          Text("The value of c=$c"),
-          Text("The value of d=$d"),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("After Swaping;"),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("The value of a=$a"),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("The value of b=$b"),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("The value of c=$c"),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("The value of d=$d"),
+          ),
         ],
       ),
     );
