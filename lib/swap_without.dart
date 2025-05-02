@@ -31,7 +31,7 @@ class _Swap_classState extends State<Swap_class> {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 102, 43, 63),
       appBar: AppBar(
-        backgroundColor: Colors.pink.shade100,
+        backgroundColor: const Color.fromARGB(255, 192, 118, 144),
         title: Text(
           'Swapping Without Third Variable',
           style: TextStyle(fontSize: 27, fontWeight: FontWeight.w600),
